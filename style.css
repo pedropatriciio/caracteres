@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #ffffff; 
+    color: #333; 
+   
+}
+
+h1 {
+    text-align: center;
+    color: #663399; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #663399; 
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto 15px auto; 
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease; 
+}
+
+input[type="text"]:focus {
+    border-color: #663399; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #663399; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+button:hover {
+    background-color: #800080; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #663399; 
+    transition: color 0.3s ease; 
+}
+
+#resultado:hover {
+    color: #800080; 
+}
