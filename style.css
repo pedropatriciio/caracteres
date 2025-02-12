@@ -70,3 +70,21 @@ button:hover {
 #resultado:hover {
     color: #800080; 
 }
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+
+.copia {
+    background-image: url("C:\Users\solides\Desktop\Retirador de pontos\copiado.png");
+    background-size: cover; /* Ou contain, dependendo do efeito desejado */
+    background-repeat: no-repeat; /* Para evitar repetição da imagem */
+    /* Outros estilos do botão */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
